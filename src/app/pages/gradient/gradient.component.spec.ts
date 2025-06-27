@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Navbar } from './navbar';
+import { GradientComponent } from './gradient.component';
 
-describe('Navbar', () => {
-  let component: Navbar;
-  let fixture: ComponentFixture<Navbar>;
+describe('GradientComponent', () => {
+  let component: GradientComponent;
+  let fixture: ComponentFixture<GradientComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Navbar]
+      imports: [GradientComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Navbar);
+    fixture = TestBed.createComponent(GradientComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
